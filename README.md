@@ -1,6 +1,6 @@
-此仓库用来发布个人使用的MIUI EU (Hyper OS) magisk 本地化模块，原作者为[MinaMichita](https://github.com/MinaMichita/MiuiEULocalizationToolsBox)，我在TA的基础上根据我自用的小米13 (fuxi)进行了修改：
+此仓库用来发布个人使用的MIUI EU (Hyper OS) magisk 本地化模块，原作者为[MinaMichita](https://github.com/MinaMichita/MiuiEULocalizationToolsBox)，我在TA的基础上为我自用的小米13 (fuxi)进行了修改：
+- 从国内版系统提取并更新了部分系统应用到新版
 - 添加了适用于Android 14 (API 34)的钱包应用
-- 从国内版系统提取并更新了部分系统应用
 - 部分功能修改为默认开启
 
 <details>
@@ -48,13 +48,21 @@ RemoveMod=true
 
 在修改和制作此模块时，我使用的系统包版本为：
 - EU: `xiaomi.eu_FUXI_OS1.0.24.5.6.DEV_14`
-- 
+- 国内版: `miui_FUXI_OS1.0.24.4.22.DEV_51a9c7ee89_14.0`
 
-[前往Release页面下载模块]
+不确定原作者模块是否绑定版本，故此修改版没有修改模块版本号，仍为`V14.0.7.0.TKHCNXM`
 
 ## 注意事项
 - 此模块未在其他机型、其他系统版本上进行过测试，使用此模块代表你接受并自行承担可能的风险
 - 建议提前做好数据备份工作
+
+## 安装和使用
+
+建议先阅读[原作者的使用说明](https://blog.minamigo.moe/archives/184)
+
+1. [从Release页面下载模块](https://github.com/Patrick-Ze/MiuiEULocalizationToolsBox/releases/latest/download/MiuiLocalization.zip)然后使用magisk刷入
+
+2. 你可能需要[下载生活黄页的apk](https://github.com/Patrick-Ze/MiuiEULocalizationToolsBox/releases/latest/download/MIUIYellowPage.apk)并执行一次手动安装，见后文的已知问题
 
 ## 已知问题
 
