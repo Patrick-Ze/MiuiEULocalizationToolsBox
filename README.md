@@ -1,8 +1,54 @@
 此仓库用来发布个人使用的MIUI EU (Hyper OS) magisk 本地化模块，原作者为[MinaMichita](https://github.com/MinaMichita/MiuiEULocalizationToolsBox)，我在TA的基础上根据我自用的小米13 (fuxi)进行了修改：
 - 添加了适用于Android 14 (API 34)的钱包应用
 - 从国内版系统提取并更新了部分系统应用
+- 部分功能修改为默认开启
+
+<details>
+
+Fonts=true
+  
+Mipay=true
+
+ContentExtension=true
+
+VirtualSim=true
+
+PersonalAssistant=true
+
+Calendar=true
+
+MiuiIme=true
+
+SogouInput=true
+
+Mms=true
+
+YellowPage=true
+
+AiAsst=true
+
+VoiceAssist=true
+
+VoiceTrigger=true
+
+Weather=true
+
+ThemeManager=true
+
+GboardTheme=true
+
+VideocallBeautify=true
+
+NotificationFilter=true
+
+SoundRecorder=true
+
+RemoveMod=true
+</details>
 
 在修改和制作此模块时，我使用的系统包版本为：
+- EU: `xiaomi.eu_FUXI_OS1.0.24.5.6.DEV_14`
+- 
 
 [前往Release页面下载模块]
 
