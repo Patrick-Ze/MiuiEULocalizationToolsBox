@@ -68,6 +68,20 @@ RemoveMod=true
 
 1. 提取你的系统里的`system/product/etc/permissions/privapp-permissions-product.xml`文件
 2. 打开此文件，找到对`com.miui.yellowpage`的授权部分，修改xml以确保授予了下面所有的权限
-3. 刷入你制作好的模块，然后重新尝试前面小节的1-3步骤
+```xml
+   <privapp-permissions package="com.miui.yellowpage">
+      <permission name="android.permission.CALL_PRIVILEGED" />
+      <permission name="com.android.voicemail.permission.READ_VOICEMAIL" />
+      <permission name="com.android.voicemail.permission.WRITE_VOICEMAIL" />
+      <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+      <permission name="android.permission.READ_PHONE_STATE" />
+      <permission name="android.permission.POST_NOTIFICATIONS" />
+      <permission name="android.permission.READ_CALL_LOG" />
+      <permission name="android.permission.READ_EXTERNAL_STORAGE" />
+      <permission name="android.permission.WRITE_CALL_LOG" />
+      <permission name="android.permission.WRITE_EXTERNAL_STORAGE" />
+   </privapp-permissions>
+```
+4. 刷入你制作好的模块，然后重新尝试前面小节的1-3步骤
 
 由于xml提取自系统镜像，而不同版本的系统xml中预置的权限配置可能不同，因此不提供我这边的magisk模块，以免刷入后破坏其他系统应用的权限
